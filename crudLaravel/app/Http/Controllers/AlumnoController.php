@@ -64,6 +64,7 @@ class AlumnoController extends Controller
      */
     public function destroy(Alumno $alumno)
     {
-        //
+        Alumno::findOrFail($alumno->id)->delete();
+        return redirect()->route('alumnos.index')->with('success', 'Alumno eliminado con exito');
     }
 }
