@@ -1,1 +1,1 @@
-CRUD sencillo realizado con el framework Laravel aplicando patron MVC
+CRUD sencillo realizado con el framework Laravel aplicando modelo Vista-Controlador
